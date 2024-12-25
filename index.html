@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="pics/spotify_318-183430.webp" type="image/x-icon">
+    <title> SpotifyClone-Web player</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box box1">
+            <div class="home ">
+                <span class="hom "><i class="fa-solid fa-house"></i></span>
+                <span class="hom2 ">Home</span>
+            </div>
+
+            <div class="search">
+                <span class="serlogo"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <span class="search1">Search</span>
+            </div>
+        </div>
+
+
+
+        <div class="box2 box">
+            <div class="sub_box1">
+                <span class="list"><i class="fa-solid fa-list"></i></span>
+                <span class="yourlist">Your Library</span>
+                <span class="list"><i class="fa-solid fa-plus"></i></span>
+            </div>
+
+
+            <div class="sub_box2 sub_box">
+                <div><img src="pics/Screenshot 2023-08-06 184502.png" alt="like"></div>
+                <div class="like">Liked songs</div>
+            </div>
+
+
+
+            <div class="sub_box3 sub_box">
+                <div class="ep"><img src="pics/ep.png" alt="wp"></div>
+                <div class="epp">Your Episodes</div>
+            </div>
+        </div>
+
+
+
+        <div class="box3 box">
+
+            <div class="logosongli">
+                <div class="splogo"><img src="pics/Spotify-Logo.wine.svg" alt="spotify logo"></div>
+                <div class="songhead">Songs list</div>
+
+                <div class="daynight">
+                    <input type="checkbox" class="toggle_btn" id="togg" onchange="toggle_fun(this)">
+                    <label for="togg">
+                        <div class="togbody">
+                            <div class="switch"><i id="day_night_logo" class="fa-regular fa-moon fa-lg "></i></div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+
+
+            <div class="item">
+
+                <div class="songsss">
+                    <div class="bat">
+                        <div id = "1" class="songnum">1.</div>
+                        <div class="songimg">
+                            <img alt="">
+                        </div>
+                    </div>
+
+                    <div id="1" class="songdata">
+                        <div class="names">
+                            <div id = "1" class="songname">TODH</div>
+                            <div id="1" class="castname">Prince Narula, Munawar Faruqui, Rony Ajnali </div>
+                        </div>
+                        <div  id="1" class="times"></div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="songsss">
+                    <div class="bat">
+                        <div id = "1" class="songnum">2.</div>
+                        <div class="songimg"><img alt=""></div>
+                    </div>
+
+                    <div id="2" class="songdata">
+                        <div class="names">
+                            <div id = "2" class="songname">TODH</div>
+                            <div id="2" class="castname">Prince Narula, Munawar Faruqui, Rony Ajnali </div>
+                        </div>
+                        <div  id="2"class="times"></div>
+                    </div>
+                </div>
+
+                <div class="songsss ">
+                    <div class="bat">
+                        <div id = "1" class="songnum">3.</div>
+                        <div class="songimg"><img alt=""></div>
+                    </div>
+
+                    <div id="3" class="songdata">
+                        <div class="names">
+                            <div id = "3" class="songname">TODH</div>
+                            <div id="3" class="castname">Prince Narula, Munawar Faruqui, Rony Ajnali </div>
+                        </div>
+                        <div id="3" class="times"></div>
+                    </div>
+                </div>
+                <div class="songsss ">
+                    <div class="bat">
+                        <div id = "1" class="songnum">4.</div>
+                        <div class="songimg"><img alt=""></div>
+                    </div>
+
+                    <div id="4" class="songdata">
+                        <div class="names">
+                            <div id = "4" class="songname">TODH</div>
+                            <div id="4" class="castname">Prince Narula, Munawar Faruqui, Rony Ajnali </div>
+                        </div>
+                        <div  id="4"class="times"></div>
+                    </div>
+                </div>
+
+                <div class="songsss">
+                    <div class="bat">
+                        <div id = "1" class="songnum">5.</div>
+                        <div class="songimg"><img alt=""></div>
+                    </div>
+
+                    <div id="5" class="songdata">
+                        <div class="names">
+                            <div id = "5" class="songname">TODH</div>
+                            <div id="5" class="castname">Prince Narula, Munawar Faruqui, Rony Ajnali </div>
+                        </div>
+                        <div  id="5"class="times"></div>
+                    </div>
+                </div>
+
+                <div class="songsss">
+                    <div class="bat">
+                        <div id = "1" class="songnum">6.</div>
+                        <div class="songimg"><img alt=""></div>
+                    </div>
+
+                    <div id="6" class="songdata ">
+                        <div class="names">
+                            <div id = "6" class="songname">TODH</div>
+                            <div id="6" class="castname"></div>
+                        </div>
+                        <div  id="6"class="times"></div>
+                    </div>
+                </div>
+
+                <div class="songsss">
+                    <div class="bat">
+                        <div id = "1" class="songnum">7.</div>
+                        <div class="songimg"><img alt=""></div>
+                    </div>
+
+                    <div id="7" class="songdata">
+                        <div class="names">
+                            <div id = "7" class="songname">TODH</div>
+                            <div id="7" class="castname">Prince Narula, Munawar Faruqui, Rony Ajnali </div>
+                        </div>
+                        <div  id="7"class="times"></div>
+                    </div>
+                </div>
+                <div class="songsss">
+                    <div class="bat">
+                        <div id = "1" class="songnum">8.</div>
+                        <div class="songimg"><img alt=""></div>
+                    </div>
+
+                    <div id="8" class="songdata">
+                        <div class="names">
+                            <div id = "8" class="songname">TODH</div>
+                            <div id="8" class="castname">Prince Narula, Munawar Faruqui, Rony Ajnali </div>
+                        </div>
+                        <div  id="8"class="times"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer>
+
+
+
+        <div class="sound_bar">
+            <div class="sound_left">
+
+                <div class="songimg"><img src="pics/song1.png" alt="songpic" class="simg"></div>
+                
+                <div id="1" class="cast-name">
+                    <div class="song-name">Todh</div>
+                    <div class="singer_name">Prince Narula, Munawar Faruqui</div>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="seekplay">
+                <input type="range" name="pro" min="0" max="100" value="0" class="seek_bar" />
+                <div class="play_pause">
+                    <div class="back"> <i class="fa-solid fa-backward-step fa-xl color" id="previous"></i></div>
+                    <div class="pause"><i id="plays" class="fa-solid fa-circle-play fa-2xl "></i></div>
+                    <div class="next"> <i class="fa-solid fa-forward-step fa-xl color" id="next"></i></div>
+                </div>
+            </div>
+
+
+
+
+            <div class="sound_right">
+                <div class="vol-icon"><i id="vl" class="fa-solid fa-volume-high fa-lg" style="color: #ffffff;"></i></div>
+                <input type="range" min="0" max="100" value="" class="volume_bar">
+            </div>
+        </div>
+
+
+
+
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/75fd1cbc60.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
