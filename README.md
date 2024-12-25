@@ -26,3 +26,7 @@ A simple clone of the Spotify web interface created using **HTML**, **CSS**, and
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/spotify-web-clone.git
+
+###visit my project
+ ```bash
+https://priyanshu-704.github.io/SpotifyClone/
